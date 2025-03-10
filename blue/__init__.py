@@ -99,7 +99,7 @@ from click.decorators import version_option
 LOG = logging.getLogger(__name__)
 
 black_format_file_in_place = black.format_file_in_place
-black_strings_fix_docstring = black.strings.fix_docstring
+black_strings_fix_docstring = black.strings.fix_multiline_docstring
 black_strings_normalize_string_quotes = black.strings.normalize_string_quotes
 
 # Try not to poison Black's cache directory.
